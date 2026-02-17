@@ -237,29 +237,6 @@ Latent2 ~ Latent1
 - **xlsxwriter** - Excel export
 - **openpyxl** - Excel file reading
 
-## Building from Source
-
-### Create Windows Installer
-```bash
-# Run the automated build script
-build_installer.bat
-```
-
-This will:
-1. Clean previous builds
-2. Run PyInstaller to create executable
-3. Run Inno Setup to create installer
-4. Output: `installer/FreeSEM_Setup_v1.0.0.exe`
-
-### Manual Build Steps
-```bash
-# Step 1: Create executable
-pyinstaller FreeSEM.spec
-
-# Step 2: Create installer
-"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" FreeSEM.iss
-```
-
 ## Development Status
 
 ### ✅ Implemented
