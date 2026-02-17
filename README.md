@@ -69,8 +69,6 @@ A modern, free, and open-source desktop application for Structural Equation Mode
 ### Windows Installer
 Download the latest installer from the releases page and run `FreeSEM_Setup_v1.0.0.exe`
 
-### From Source
-
 **Prerequisites:**
 - Python 3.8 or higher
 - pip package manager
