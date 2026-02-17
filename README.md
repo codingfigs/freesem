@@ -75,23 +75,6 @@ Download the latest installer from the releases page and run `FreeSEM_Setup_v1.0
 - Python 3.8 or higher
 - pip package manager
 
-**Steps:**
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/freesem.git
-cd freesem
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the application:
-```bash
-python main.py
-```
-
 ## Usage Guide
 
 ### Workflow Overview
@@ -255,35 +238,6 @@ Latent2 ~ Latent1
 - **reportlab** - PDF generation
 - **xlsxwriter** - Excel export
 - **openpyxl** - Excel file reading
-
-### Project Structure
-```
-freesem/
-├── main.py                      # Application entry point
-├── config/                      # Configuration files
-├── ui/                          # User interface components
-│   ├── main_window.py          # Main application window
-│   ├── diagram_editor.py       # Visual diagram editor
-│   ├── data_editor.py          # Data import and editing
-│   ├── model_panel.py          # Model specification
-│   ├── results_viewer.py       # Results display
-│   └── theme_manager.py        # Theme system
-├── core/                        # Analysis engines
-│   ├── sem_engine.py           # Main SEM coordinator
-│   ├── efa_engine.py           # EFA implementation
-│   ├── cfa_engine.py           # CFA/CB-SEM implementation
-│   ├── plssem_engine.py        # PLS-SEM implementation
-│   ├── metasem_engine.py       # Meta-SEM implementation
-│   ├── model_converter.py      # Diagram to syntax converter
-│   └── diagram.py              # Diagram data structure
-├── data_io/                     # Import/export functionality
-│   └── exporters.py            # Export to DOCX/PDF/Excel/CSV
-├── data/                        # Sample datasets
-│   ├── metasem_sample.csv      # Sample meta-analysis data
-│   └── metasem_mediation.csv   # Mediation example
-├── resources/                   # Icons and styles
-└── utils/                       # Utility functions
-```
 
 ## Building from Source
 
